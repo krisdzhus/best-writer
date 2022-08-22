@@ -1,0 +1,305 @@
+h2 {
+    font-family: 'Cardo';
+    font-weight: 400;
+    font-size: 42px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1B3764;
+}
+
+.yellow_line {
+    width: 50px;
+    height: 3px;
+    background-color: #FFCA42;
+    margin: 0 auto;
+    margin-bottom: 33px;
+}
+
+.blue_line {
+    width: 50px;
+    height: 3px;
+    background-color: #1B3764;
+    margin: 0 auto;
+    margin-bottom: 33px;
+}
+
+#author_book {
+    padding: 110px 0 90px 0;
+}
+
+.author_book_card {
+    display: flex;
+    justify-content: space-between;
+    width: 285;
+    height: 382px;
+    margin-right: 2%;
+}
+
+.author_book_card_img {
+    width: 100%;
+    overflow: hidden;
+    /* margin-right: 30px; */
+}
+
+.autor_book_card_info {
+    max-height: 100%;
+    margin-left: 15px;
+}
+
+h3 {
+    font-family: 'Cardo';
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.32px;
+    color: #1B3764;
+}
+
+.autor_book_card_price {
+    font-family: 'Inter';
+    font-size: 21px;
+    color: #FFCA42;
+}
+
+.main_text {
+    font-family: 'Inter';
+    font-size: 17px;
+    color: #969AA0;
+}
+
+.autor_book_card_print {
+    font-family: 'Cardo';
+    font-size: 24px;
+    color: #1B3764;
+}
+
+.transparent_btn {
+    width: 206px;
+    height: 66px;
+    border: 2px solid #FFCA42;
+    background-color: transparent;
+    font-family: 'Cardo';
+    font-size: 19px;
+    letter-spacing: 0.38px;
+    color: #1B3764;
+}
+
+#about_author {
+    background-color: #F5F8FC;
+    padding: 140px 0 140px 0;
+}
+
+.author_img {
+   width: 525px;
+   height: 620px; 
+   filter: drop-shadow(0px 0px 20px rgba(27, 55, 100, 0.3));
+}
+
+.author_img img {
+    width: 100%;
+    overflow: hidden;
+}
+
+#about_author h2 {
+    margin-bottom: 23px;
+}
+
+.author_info {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-left: -40px;
+}
+
+.author_info_item {
+    width: 100%;
+    border-right: 1px solid #FFCA42;;
+}
+
+.author_info_item span {
+    width: 100%;
+    display: block;
+    padding-left: 30px;
+}
+
+.author_info_item:last-child {
+    border-right: none;
+}
+
+.author_info_item_number {
+    font-family: 'Cardo';
+    font-size: 54px;
+    color: #1B3764;
+}
+
+.author_info_item .main_text {
+    font-size: 14px;
+}
+
+.author_contact {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 484px;
+    height: 161px;
+    background-color:#1B3764;
+}
+
+.autor_contact_img {
+    margin-left: 15px;
+}
+
+.author_contact h4 {
+    font-family: 'Cardo';
+    font-size: 20px;
+    color: #FFCA42;
+}
+
+.author_contact_info {
+    margin-left: 40px;
+}
+
+.author_contact_info a {
+    display: inline-block;
+    color:#B4C7E7;
+    font-family: 'Inter';
+    font-size: 18px;
+}
+
+#trusted_by {
+    padding: 110px 0 130px 0;
+}
+
+#trusted_by h2 {
+    margin-bottom: 23px;
+}
+
+.center {
+    text-align: center;
+}
+
+.book_store_card_info_header {
+    font-family: 'Cardo';
+    font-size: 24px;
+    text-align: center;
+    color: #1B3764;
+    margin: 22px 0 16px 0;
+}
+
+.book_store_card_img {
+    margin: 0 auto;
+}
+
+.book_store_card_img img {
+    width: 100%;
+}
+
+#promo {
+    background-color:#1B3764;
+    padding: 70px 0 70px 0;
+}
+
+.white_text {
+    color: #FFF;
+}
+
+.left_text {
+    text-align: left;
+}
+
+#promo .yellow_line {
+    margin: 24px 0 27px 0;
+}
+
+.promo_text {
+    margin-top: 110px;
+}
+
+#articles {
+    background-color: #F4F8FF;
+    padding: 110px 0 110px 0;
+}
+
+.article_card_img img {
+    width: 100%;
+}
+
+.article_card_info {
+    padding: 30px;
+    background-color: #FFF;
+}
+
+.article_card_info_text {
+    font-family: 'Cardo';
+    font-size: 24px;
+    line-height: 34px;
+    color: #1B3764;
+}
+
+.article_card_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article_card_read_more {
+    font-family: 'Cardo';
+    font-size: 19px;
+    letter-spacing: 0.38px;
+    text-transform: capitalize;
+    color: #1B3764;
+    text-decoration: underline;
+}
+
+.article_card_date {
+    font-family: 'Inter';
+    font-size: 16px;
+    line-height: 26px;
+    color: #1B3764;
+}
+
+#subscribtion {
+    padding: 120px 0 120px 0;
+    background-color: #FFF;
+}
+
+#subscribtion h2 {
+    margin-bottom: 23px;
+}
+
+.subscribtion {
+    background-color: #FFCA42;
+    width: 100%;
+    min-height: 489px;
+    padding: 96px 150px;
+}
+
+.subscribtion_text {
+    font-family: 'Inter';
+    font-size: 18px;
+    text-align: center;
+    color: #1B3764;
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 100%;
+    max-width: 656px;
+    height: 50px;
+    padding: 19px 0 20px 39px;
+}
+
+.blue_btn {
+    width: 40%;
+    max-width: 328px;
+    background: #1B3764;
+    border: 2px solid #1B3764;
+    font-family: 'Inter';
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.18px;
+    color: #FFFFFF;
+}

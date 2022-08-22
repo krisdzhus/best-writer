@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #1B3764;
+}
+
+.header_inner {
+    min-height: 109px;
+    padding: 20px 0;
+}
+
+nav {
+    padding: 23px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 0.17px;
+    color: #F6F8FC;
+    text-decoration: none;
+}
+
+.menu .menu_link:hover {
+    color: #FFCA42;
+
+}
+
+.header_order {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header_inner .logo {
+    display: block;
+    max-width: 100%;
+    margin: 23px 0;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background-color: #FFFFFF;
+    margin: 12px 0;
+}
+
+.order_menu_basket {
+    background-color: transparent;
+    border: none;
+    margin: 20px;
+}
+
+.yellow_btn {
+    width: 222px;
+    height: 66px;
+    background-color: #FFCA42;
+    border: none;
+    font-family: 'Cardo', sans-serif;
+    color: #1B3764;
+}
+
+.header_outer {
+    margin-top: 100px;
+    min-height: 700px;
+}
+
+.header_outer .text {
+    font-family: 'Cardo', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.header_outer_img {
+    max-width: 592px;
+    max-height: 800px;
+}
+
+.book_pic {
+    width: 100%;
+}
+
+.header_outer .promo_text {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #B4C7E7;
+}
+
+h1 {
+    font-family: 'Cardo';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
+    letter-spacing: 1.3px;
+    color: #FFFFFF;
+}
+
+.header_outer .demo_link {
+    font-family: 'Cardo';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.38px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-left: 51px;
+}
+
+.header_outer .about_book {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.about_book li {
+    font-family: 'Cardo';
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.48px;
+    color: #FFFFFF;
+}
+
+.header_outer .about_book_info {
+    display: block;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 17px;
+    color: #B4C7E7;
+}
+
+.header_outer img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
